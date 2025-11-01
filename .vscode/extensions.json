@@ -1,8 +1,7 @@
 {
   "recommendations": [
-    "biomejs.biome",
-    "charliermarsh.ruff",
     "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
     "huacnlee.autocorrect",
     "ms-playwright.playwright",
     "unifiedjs.vscode-mdx"

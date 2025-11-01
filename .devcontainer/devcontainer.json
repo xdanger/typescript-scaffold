@@ -3,7 +3,7 @@
   // "name": "<>",
   // Use a basic core Linux image as basic template.
   // See https://containers.dev/templates for all containers(base)
-  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:24",
   // "build": {
   //     "context": "..",
   //     "dockerfile": "Dockerfile",
@@ -47,7 +47,7 @@
     // "ghcr.io/devcontainers/features/ruby:1": {},
     // "ghcr.io/devcontainers/features/rust:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {},
-    "ghcr.io/devcontainers-contrib/features/tmux-apt-get:1": {}
+    "ghcr.io/devcontainers-extra/features/tmux-apt-get:1": {}
     // "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
     //     "plugins": "",
     //     "omzPlugins": "",
@@ -60,8 +60,12 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "GitHub.copilot",
+        "dbaeumer.vscode-eslint",
         // "eg2.vscode-npm-script",
+        "esbenp.prettier-vscode",
+        // "GitHub.copilot",
+        "huacnlee.autocorrect",
+        "ms-playwright.playwright",
         // "ms-python.python",
         // "ms-python.pylint",
         // "ms-python.flake8",
@@ -69,7 +73,8 @@
         // "ms-python.black-formatter",
         // "ms-python.isort",
         // "ms-python.vscode-pylance",
-        "MS-vsliveshare.vsliveshare-pack"
+        "MS-vsliveshare.vsliveshare-pack",
+        "unifiedjs.vscode-mdx"
       ],
       // Set *default* container specific settings.json values on container create.
       "settings": {

@@ -19,7 +19,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript][typescript]": {
-    "editor.defaultFormatter": "biomejs.biome",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.tabSize": 2
   },
   "[python]": {
