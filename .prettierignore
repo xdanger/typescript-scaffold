@@ -16,9 +16,8 @@ coverage
 .env.local
 .env.*.local
 
-# IDE
-.vscode
-.idea
-
 # OS
 .DS_Store
+
+# Local config files
+*.local.*

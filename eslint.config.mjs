@@ -7,8 +7,13 @@ import tseslint from "typescript-eslint";
  * Common ignore patterns shared across all workspaces
  * Usage: globalIgnores(commonIgnorePatterns)
  */
-export const commonIgnorePatterns = ["dist", "node_modules", "**/*.d.ts"];
-
+export const commonIgnorePatterns = [
+  "dist",
+  "node_modules",
+  "**/*.d.ts",
+  "**/*.d.mts",
+  "**/*.d.cts",
+];
 /**
  * Create language options config for TypeScript files
  * @param {string} tsconfigRootDir - The root directory for tsconfig.json (use import.meta.dirname)
