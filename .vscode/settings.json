@@ -7,6 +7,7 @@
     "source.organizeImports": "explicit"
   },
   "editor.formatOnSave": true,
+  "eslint.useFlatConfig": true,
   "files.associations": {
     "*.mdx": "mdx"
   },
